@@ -117,10 +117,10 @@ public class MybatisPlusGenerator {
                         // .formatXmlFileName("%s"))
                         .formatMapperFileName("%sMapper")
                 )
-                .strategyConfig(builder -> builder
-                                .addInclude(DEAL_TABLE_NAME)
+                // .strategyConfig(builder -> builder
+                                // .addInclude(DEAL_TABLE_NAME)
                         // .addTablePrefix("xue_gao_")
-                )
+                // )
                 .templateEngine(new FreemarkerTemplateEngine())
                 .execute();
     }
