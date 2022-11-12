@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xuegao</groupId>
+    <artifactId>xuegao-fmk-generator</artifactId>
+    <version>0.0.1</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+
+        <xuegao-framework.version>0.0.3</xuegao-framework.version>
+        <mybatis-plus-generator.version>3.5.3</mybatis-plus-generator.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.xuegao</groupId>
+            <artifactId>framework-config</artifactId>
+            <version>${xuegao-framework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.xuegao</groupId>
+            <artifactId>framework-util</artifactId>
+            <version>${xuegao-framework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.xuegao</groupId>
+            <artifactId>framework-mapper</artifactId>
+            <version>${xuegao-framework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>${mybatis-plus-generator.version}</version>
+        </dependency>
+    </dependencies>
+</project>
