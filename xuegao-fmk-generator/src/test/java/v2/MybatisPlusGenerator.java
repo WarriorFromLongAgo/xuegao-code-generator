@@ -93,7 +93,7 @@ public class MybatisPlusGenerator {
                         // .logicDeletePropertyName("deleteFlag")
                         .naming(NamingStrategy.underline_to_camel)
                         .columnNaming(NamingStrategy.underline_to_camel)
-                        .addIgnoreColumns("id", "del_flag", "created_by", "created_time", "updated_by", "updated_time", "trace_id")
+                        // .addIgnoreColumns("id", "del_flag", "created_by", "created_time", "updated_by", "updated_time", "trace_id")
                         // .addSuperEntityColumns("id", "del_flag", "create_by", "create_time", "update_by", "update_time", "trace_id")
                         // .formatFileName("%sEntity")
                         .idType(IdType.AUTO))
